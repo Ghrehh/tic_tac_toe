@@ -17,19 +17,7 @@ describe Player do
         end
         
         it "should return an empty array" do
-        	expect(@player.squares).to eq([])
+            expect(@player.squares).to eq([])
         end
     end
-end
-
-describe Game do
-	before :each do
-		@game = Game.new
-	end
-
-	describe "testing game" do
-		it "should check title" do
-			
-		end
-	end
 end
